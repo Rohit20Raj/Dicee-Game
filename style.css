@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(https://www.teahub.io/photos/full/247-2475355_photo-wallpaper-lights-lights-background-colors-black-lighting.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    color: blanchedalmond;
+    /* background-size: 100vw; */
+}
+figcaption{
+    font-size: 150%;
+    font-weight: bolder;
+}
+.heading{
+    font-size: 250%;
+    font-family: "Sofia", sans-serif;
+}
+.grid{
+    align-items: center;
+    display: grid;
+    /* grid-template-columns: 35vw 20vw 35vw; */
+    justify-content: center;
+    justify-items: center;
+    margin-top: 12vh;
+}
+@media screen and (min-width : 600px) {
+    .grid{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 35vw 20vw 35vw;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 12vh;
+    }
+}
