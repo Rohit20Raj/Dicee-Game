@@ -44,11 +44,11 @@ else if(y==6) {
 }
 
 if(x>y){
-    document.querySelector(".result").innerHTML = "Player 1 Wins"
+    document.querySelector(".result").innerHTML = "<h2>Player 1 Wins</h2>"
 }
 else if(x<y){
-    document.querySelector(".result").innerHTML = "Player 2 Wins"
+    document.querySelector(".result").innerHTML = "<h2>Player 2 Wins</h2>"
 }
 else{
-    document.querySelector(".result").innerHTML = "It's a Tie"
+    document.querySelector(".result").innerHTML = "<h2>It's a Tie</h2>"
 }
